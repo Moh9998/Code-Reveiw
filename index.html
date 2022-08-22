@@ -184,16 +184,16 @@ form {
     <h1 id = "title">Microverse Survey Form</h1>
 
     <p id="description"> this Survey form for genral Practices </p>
-    <!-- Create Form -->
+
     <form id="survey-form">
  
-        <!-- Details -->
+      
         <div class="form-control">
             <label id="name-label" for="name" >
                 Name
             </label>
  
-            <!-- Input Type Text -->
+         
             <input type="text" required
                    id="name"
                    placeholder= "Enter your name" />
@@ -204,7 +204,7 @@ form {
                 Email
             </label>
  
-            <!-- Input Type Email-->
+       
             <input type="email" 
                     id="email" required
 
@@ -216,7 +216,6 @@ form {
                 Number
             </label>
  
-            <!-- Input Type Text -->
             <input type="number"
             id="number" required
                    min="10" max="99" value="00"
@@ -227,8 +226,7 @@ form {
             <label for="role" id="label-role">
                 Which option best describes you?
             </label>
-             
-            <!-- Dropdown options -->
+          
             <select name="role" id="dropdown">
                 <option value="student">Student</option>
                 <option value="intern">Intern</option>
@@ -245,7 +243,7 @@ form {
                 to a friend?
             </label>
  
-            <!-- Input Type Radio Button -->
+ 
             <label for="recommed-1">
                 <input type="radio" value= "radio"
                        id="recommed-1"
@@ -267,7 +265,7 @@ form {
             <label>Languages and Frameworks known
                 <small>(Check all that apply)</small>
             </label>
-            <!-- Input Type Checkbox -->
+           
             <label for="inp-1">
                 <input type="checkbox" value="check"
                        name="inp">C</input></label>
@@ -305,13 +303,12 @@ form {
                 Any comments or suggestions
             </label>
  
-            <!-- multi-line text input control -->
+            
             <textarea name="comment" id="comment"
                 placeholder="Enter your comment here">
             </textarea>
         </div><br/>
   
-        <!-- Multi-line Text Input Control -->
         <button type="submit" value="submit" id ="submit">
             Submit
         </button>
